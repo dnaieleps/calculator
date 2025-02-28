@@ -1,0 +1,195 @@
+body { 
+    background-color: rgb(200, 200, 191);
+}
+h1 {
+    text-align: center; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode'; 
+}
+#eval {
+    text-align: center; 
+    padding-bottom: 10px;
+}
+#output {
+    text-align: center; 
+    min-width: 500px; 
+}
+#evalbutton { 
+    font-family: 'Trebuchet MS';
+    font-weight: bold; 
+    font-size: 18px;  
+    border: solid, 2px, black;
+}
+#ansbutton {
+    font-family: 'Trebuchet MS'; 
+    font-weight: bold;
+    font-size: 12px; 
+    flex-direction: column;
+    border: solid, 2px, black;
+}
+#delbutton {
+    font-family: 'Trebuchet MS'; 
+    font-weight: bold; 
+    font-size: 12px; 
+    flex-direction: column; 
+    border: solid, 2px, black; 
+}
+textarea {
+    resize: none;
+    width: 500px; 
+    height: 20px; 
+    font-size: 16px; 
+    font-family: 'Trebuchet MS';
+    font-weight: 16px; 
+    margin-bottom: 10px;
+    justify-content: center; 
+    border-width: 2px; 
+    border-color: black;
+}
+textarea:focus{
+    border-color: black; 
+}
+
+#errorwindow{
+    width: 100%; 
+    height: 200%; 
+    opacity: 30%;
+    background-color: rgb(150, 139, 139);
+    z-index: 1; 
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+    
+}
+#errorbox {
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    font-weight: bold; 
+    opacity: 100%; 
+    background-color: rgb(247, 186, 186);
+    width: 300px; 
+    height: 75px; 
+    text-align: center;    
+    width: fit-content;
+    border-width: 2px;
+    border-style: solid; 
+    border-color: rgb(0, 0, 0);
+    padding: 10px;   
+    z-index: 2;
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%, 0);
+}
+#errormessage {
+    padding-top: 5px; 
+    font-size: 13px; 
+    font-weight: normal; 
+}
+
+#okbutton {
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 10px;
+    margin: 10px; 
+}
+
+
+
+#allbuttons { 
+    display: flex;
+    justify-content: center;
+}
+#original {
+    padding-right: 30px; 
+}
+#expansion {
+    padding-left: 30px; 
+}
+
+
+
+.ogbutton{
+    background-color: aliceblue;
+    height: 50px;
+    width: 55px; 
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    text-align: flex; 
+    margin: 1px;
+    border: solid;
+    border-width: 2px;
+}
+.ogbutton:hover {
+    background-color: rgb(204, 206, 208);
+}
+.ogbutton:active {
+    background-color: rgb(178, 184, 188);
+}
+
+
+
+.expbutton{
+    visibility: none;
+    background-color: rgb(220, 216, 216);
+    height: 50px;
+    width: 55px; 
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    text-align: flex; 
+    margin: 1px; 
+    border: solid;
+    border-width: 2px;
+}
+.expbutton:hover {
+    background-color: rgb(204, 206, 208);
+}
+.expbutton:active {
+    background-color: rgb(178, 184, 188);
+}
+
+
+.specialbutton {
+    visibility: none;
+    background-color: rgb(220, 216, 216);
+    height: 50px;
+    width: 55px; 
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    text-align: flex; 
+    margin: 1px;
+    border: solid;
+    border-width: 2px;
+}
+.specialbutton:hover {
+    background-color: rgb(204, 206, 208);
+}
+.specialbutton:active {
+    background-color: rgb(178, 184, 188);
+}
+
+#toggleTrigButton {
+    visibility: none;
+    background-color: rgb(220, 216, 216);
+    height: 50px;
+    width: 55px; 
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    text-align: flex; 
+    margin: 1px;
+    border: solid;
+    border-width: 2px;
+}
+
+a { 
+    color: blue;
+}
+a.hover { 
+    color: lightblue;
+}

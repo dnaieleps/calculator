@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="calc.css">
+        <title> CALCULATOR! </title>
+    </head>
+    <div id="errorwindow" hidden></div>
+    <h1>Scientific Calculator</h1>
+
+    <div id="eval">
+        <button id="ansbutton" title="Shift + A"> ans</button>
+        <button id="evalbutton" title="Enter"> Evaluate</button>
+        <button id="delbutton" title="Backspace"> del </button>
+    </div>
+    <div id="output">
+        <textarea placeholder="Enter expression: " id="textbox" type="textarea"></textarea>
+    </div>
+
+    <div id="errorbox" hidden> 
+        <div>Error <div id="errormessage"></div></div> 
+        <button id="okbutton"> OK </button>
+    </div>
+
+    <div id="allbuttons">
+        <div id="original">
+            <button class="ogbutton">7</button>
+            <button class="ogbutton">8</button>
+            <button class="ogbutton">9</button>
+            <button class="ogbutton">+</button>
+            <br>    
+            <button class="ogbutton">4</button>
+            <button class="ogbutton">5</button>
+            <button class="ogbutton">6</button>
+            <button class="ogbutton">-</button>
+            <br>
+            <button class="ogbutton">1</button>
+            <button class="ogbutton">2</button>
+            <button class="ogbutton">3</button>
+            <button class="ogbutton">* </button>
+            <br>
+            <button class="ogbutton" title="Tab">C</button>
+            <button class="ogbutton">0</button>
+            <button class="ogbutton">.</button>
+            <button class="ogbutton">/ </button>
+            <br>
+        </div>
+        <br>
+        
+        <div id="expansion">
+            <button class="expbutton">(</button>
+            <button class="expbutton">)</button>
+            <button class="specialbutton">√</button>
+            <button class="specialbutton">n√</button>
+            <br>
+            <button class="specialbutton">log</button>
+            <button class="specialbutton">ln</button>
+            <button class="expbutton">e</button>
+            <button class="specialbutton">^</button>
+            <br>
+            <button class="specialbutton">sin</button>
+            <button class="specialbutton">cos</button>
+            <button class="specialbutton">tan</button>
+            <button class="expbutton">π</button>
+            <br>
+            <button class="expbutton">!</button>
+            <button class="expbutton">%</button>
+            <button class="specialbutton">neg</button>
+            <button id="toggleTrigButton">deg</button>
+        </div>
+    </div>
+    
+
+    <script src="calc.js"></script>
+        <hr>
+    <footer>
+           <!-- <div> Copyright &copy 2024 Danielfucks</div> --> 
+    </footer>
+</html>
